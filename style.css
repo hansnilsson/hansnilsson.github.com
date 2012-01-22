@@ -1,0 +1,18 @@
+body {
+  font: 76%/1.6 Helvetica, Arial, sans-serif;
+  color: #333;
+
+}
+
+ul, li { list-style: none; }
+ul li {
+	padding: 3px 0 3px 20px;
+}
+
+li.twitter { background: url(images/twitter_16.png) left center no-repeat; }
+li.facebook { background: url(images/facebook_16.png) left center no-repeat; }
+li.lastfm { background: url(images/lastfm_16.png) left center no-repeat; }
+li.xbox { background: url(images/xbox_16.png) left center no-repeat; }
+li.drupal { background: url(images/drupal_16.png) left center no-repeat; }
+li.linkedin { background: url(images/linkedin_16.png) left center no-repeat; }
+li.foursquare { background: url(images/foursquare_16.png) left center no-repeat; }
