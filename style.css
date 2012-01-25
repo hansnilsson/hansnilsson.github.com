@@ -4,11 +4,32 @@ body {
 
 }
 
+a:link,
+a:visited,
+a:active {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  border-bottom: 1px dotted #333;
+}
+
+.caption {
+  font-size: 1.5em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 ul, li { list-style: none; }
 ul li {
 	padding: 3px 0 3px 20px;
   background-position: left center;
   background-repeat: no-repeat;
+  font-size: 1.1em;
 }
 
 li.twitter { background-image: url(images/twitter_16.png); }
@@ -21,3 +42,5 @@ li.foursquare { background-image: url(images/foursquare_16.png); }
 li.aboutme { background-image: url(images/aboutme_16.png); }
 li.pinboard { background-image: url(images/pinboard_16.gif); }
 li.instagram { background-image: url(images/instagram_16.png); }
+li.github { background-image: url(images/github_16.png); }
+
